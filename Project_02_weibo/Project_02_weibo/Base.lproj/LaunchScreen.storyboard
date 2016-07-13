@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="weibo_launch_01.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="6iw-OO-5cs">
+                                <rect key="frame" x="0.0" y="20" width="600" height="580"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="weibo_launch_02.png" translatesAutoresizingMaskIntoConstraints="NO" id="z1b-b7-0IW">
+                                <rect key="frame" x="250" y="367" width="100" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="TYz-rw-feh"/>
+                                    <constraint firstAttribute="width" constant="100" id="UJc-mo-UB5"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.78274965206248648" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="6iw-OO-5cs" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="1Zw-HB-wag"/>
+                            <constraint firstItem="z1b-b7-0IW" firstAttribute="centerX" secondItem="6iw-OO-5cs" secondAttribute="centerX" id="ADi-1H-M7n"/>
+                            <constraint firstAttribute="trailing" secondItem="6iw-OO-5cs" secondAttribute="trailing" id="NSH-uu-laI"/>
+                            <constraint firstItem="z1b-b7-0IW" firstAttribute="top" secondItem="6iw-OO-5cs" secondAttribute="bottom" constant="-233" id="k4w-MA-fPr"/>
+                            <constraint firstItem="6iw-OO-5cs" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" constant="20" id="ou9-Ma-4Uz"/>
+                            <constraint firstItem="6iw-OO-5cs" firstAttribute="bottom" secondItem="xb3-aO-Qok" secondAttribute="top" id="zMg-jt-FMc"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="weibo_launch_01.jpeg" width="1200" height="1801"/>
+        <image name="weibo_launch_02.png" width="461" height="377"/>
+    </resources>
+</document>
